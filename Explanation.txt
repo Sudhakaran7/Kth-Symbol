@@ -1,0 +1,53 @@
+You are given with N, number of rows, and K indexed symbol in row N,
+On the first row, we write a 0. Now in every subsequent row, we look at the previous row and replace 
+each occurrence of 0 with 01, and each occurrence of 1 with 10.
+Find Kth symbol in Nth row.
+
+Input Description:
+N and K as input in integer, (1<N,K<1000)
+
+Output Description:
+Print the Kth symbol in the Nth row.
+
+Sample Input:
+4 5
+
+Sample Output:
+1
+
+Explanation:
+First row= 0
+Second row= 01
+third row= 0110
+Fourth row= 01101001
+in fouth row the Kth symbol is 1, so the output is 1.
+
+Sample Input:
+7 3
+
+Sample Output:
+1
+
+Sample Input:
+8 10
+
+Sample Output:
+0
+
+Sample Input:
+15 30
+
+Sample Output:
+0
+
+Sample Input:
+35 68
+
+Sample Output:
+1
+
+Sample Input:
+35 69
+
+Sample Output:
+0
